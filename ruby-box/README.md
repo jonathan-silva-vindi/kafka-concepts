@@ -52,3 +52,5 @@ Para fazer teste de estresse nos brokers execute:
 ```ruby
 StressBroker.new(num_messages = 500_000, num_threads = 20).execute
 ```
+
+Para acessar o kafka-ui, basta acessar o endereço: `http://0.0.0.0:8080`
